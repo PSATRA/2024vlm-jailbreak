@@ -1,6 +1,7 @@
 from llava.model.builder import load_pretrained_model
 from llava.mm_utils import process_images, tokenizer_image_token, get_model_name_from_path
 from PIL import Image
+import torch
 
 # load the model
 device = "mps"
