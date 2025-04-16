@@ -13,3 +13,6 @@ We test whether carefully constructed adversarial images can bypass alignment me
 - Optimize an adversarial image using PGD
 - Test whether the model now **outputs harmful content** (i.e., jailbreak)
 - Evaluate output with manual inspection or automatic toxicity detection
+
+```bash
+git clone https://huggingface.co/liuhaotian/llava-v1.5-7b
