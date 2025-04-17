@@ -15,4 +15,5 @@ We test whether carefully constructed adversarial images can bypass alignment me
 - Evaluate output with manual inspection or automatic toxicity detection
 
 ```bash
+git lfs install
 git clone https://huggingface.co/liuhaotian/llava-v1.5-7b
